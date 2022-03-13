@@ -4,13 +4,13 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-    'description': 'My Project',
+    'description': 'My ProjectName',
     'author': 'Orlov Yaroslav',
-    'url': 'URL to get it at.',
-    'download_url': 'Where to download it.',
+    'url': 'https://github.com/yarorlov/python.git',
+    'download_url': 'https://github.com/yarorlov/python.git',
     'author_email': 'epoc@mail.ru',
     'version': '0.1',
-    'install_requires': ['nose'],
+    'install_requires': ['pytest'],
     'packages': ['NAME'],
     'scripts': [],
     'name': 'projectname'
