@@ -1,5 +1,5 @@
 
-from sample import core 
+from ex6 import core 
 
 
 
