@@ -1,0 +1,11 @@
+  Using cached https://files.pythonhosted.org/packages/05/8e/8de486cbd03baba4deef4142bd643a3e7bbe954a784dc1bb17142572d127/packaging-21.3-py3-none-any.whl
+Collecting colorama; sys_platform == "win32" (from pytest)
+  Using cached https://files.pythonhosted.org/packages/44/98/5b86278fbbf250d239ae0ecb724f8572af1c91f4a11edf4d36a206189440/colorama-0.4.4-py2.py3-none-any.whl
+Collecting typing-extensions>=3.6.4; python_version < "3.8" (from importlib-metadata>=0.12; python_version < "3.8"->pytest)
+  Using cached https://files.pythonhosted.org/packages/45/6b/44f7f8f1e110027cf88956b59f2fad776cca7e1704396d043f89effd3a0e/typing_extensions-4.1.1-py3-none-any.whl
+Collecting zipp>=0.5 (from importlib-metadata>=0.12; python_version < "3.8"->pytest)
+  Using cached https://files.pythonhosted.org/packages/bd/df/d4a4974a3e3957fd1c1fa3082366d7fff6e428ddb55f074bf64876f8e8ad/zipp-3.6.0-py3-none-any.whl
+Collecting pyparsing!=3.0.5,>=2.0.2 (from packaging->pytest)
+  Using cached https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl
+Installing collected packages: attrs, iniconfig, atomicwrites, tomli, py, typing-extensions, zipp, importlib-metadata, pluggy, pyparsing, packaging, colorama, pytest
+Successfully installed atomicwrites-1.4.0 attrs-21.4.0 colorama-0.4.4 importlib-metadata-4.8.3 iniconfig-1.1.1 packaging-21.3 pluggy-1.0.0 py-1.11.0 pyparsing-3.0.9 pytest-7.0.1 tomli-1.2.3 typing-extensions-4.1.1 zipp-3.6.0
