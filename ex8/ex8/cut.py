@@ -4,8 +4,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description = "Handling command line arguments.")
 
-parser.add_argument('-d','--delimiter', action='store', 
-                    help='print a list with uppercased agruments')
+parser.add_argument('-d','--delimiter', action='store')
 parser.add_argument('-f','--fields', action='store')
 parser.add_argument('-b','--bytes', action='store')
 parser.add_argument('-c','--characters', action='store')
@@ -26,9 +25,14 @@ print(args.path)
 if args.delimiter:
     print(args.delimiter)
 
-with open(args.path[0], 'r', encoding ='utf-8') as f:
-    sample = f.readlines()
+if args.path[0] == '-':
+    data = input('>>')
+    sample = data.split('\n')
     print(sample)
+else:
+    with open(args.path[0], 'r', encoding ='utf-8') as f:
+        sample = f.readlines()
+        print(sample)
 
 # line = input() - implementation of a standard input. If you want list of fields separated with comma like '5,6,7'
 # then just for fields_at = [i for i in args.fields.split(',')]. If you want fields like '5-7', then split args.fields
