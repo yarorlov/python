@@ -26,7 +26,7 @@ if args.delimiter:
     print(args.delimiter)
 
 if args.path[0] == '-':
-    data = input('>>')
+    data = sys.stdin.read()
     sample = data.split('\n')
     print(sample)
 else:
