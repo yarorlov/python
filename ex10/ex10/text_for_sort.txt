@@ -1,0 +1,12 @@
+You are slowly building up what I call a Personal Process Practice (3P), which isn't a new idea at all.
+The purpose of your 3P is to gain objective insight into how you do things without killing your creativity and productivity. 
+By simply tracking little metrics and making run charts to guide improvements you can drastically change how well you work. 
+The risk though is that this will prevent you from hacking quickly or getting things done or that your 3P will become more work than your real work.
+I did this for about four years of my programming career and it worked great to teach me about myself and how I work. 
+It also cut through many of the lies that process advocates push. I had a simple way to actually test if some pundit's views on programming improved my personal productivity. 
+i would say the only mistake I made was taking it much too seriously and killing my creativity for those four years.
+This is why you're building an idea of your starting process and work environment in small quick hacks. 
+You don't have time to collect complicated metrics and worry about exactly how you do things when there's only 45 minutes to get something done.
+Later we'll focus on practices that require concentration, and you'll spend more time and gather slightly better metrics. 
+As you work try not to let the metrics kill your creativity, flow, or well-being. If you hate collecting something, then don't do it. 
+Find a way to automate it, or come up with another metric.
